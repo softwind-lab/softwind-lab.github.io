@@ -30,5 +30,7 @@ a + a {
 }
 
 @media (max-width: 1100px) {
-  position: unset;
+  .back-top-left {
+    position: unset;
+  }
 }
