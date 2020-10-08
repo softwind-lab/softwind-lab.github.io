@@ -24,7 +24,11 @@ a + a {
 .back-top-left {
   font-size: 1.5rem;
   text-decoration: none;
-  position: absolute;
+  position: fixed;
   top: 1em;
   left: 1em;
+}
+
+@media (max-width: 1100px) {
+  position: unset;
 }
