@@ -8,3 +8,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.center {
+  text-align: center;
+}
+
+a + a {
+  margin-left: 1rem;
+}
