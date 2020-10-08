@@ -20,3 +20,11 @@ body {
 a + a {
   margin-left: 1rem;
 }
+
+.back-top-left {
+  font-size: 1.5rem;
+  text-decoration: none;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
