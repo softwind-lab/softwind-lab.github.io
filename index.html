@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <title>Softwind LAB</title>
+  <title>SoftwindLab</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
   <style type="text/css">
     h1 {
-      font-size: 120px;
+      font-size: 8rem;
       line-height: 1em;
-      text-align: center;
-      margin-top: calc(50vh - 60px);
+      margin-top: calc(50vh - 1.25em);
     }
-    .top-right {
-      position: absolute;
-      right: 10px;
-      top: 10px;
+   .nav {
+      font-size: 2rem;
+    }
+    a {
+      text-decoration: none;
+      color: #021317;
+      padding-bottom: 2px;
+      border-bottom: 2px solid;
+    }
+    a:hover, a:focus {
+      color: #2D906F;
+    }
+    @media (max-width: 414px) {
+      h1 {
+        font-size: 4rem;
+      }
     }
   </style>
 </head>
-<body>
+<body class-"center">
   <h1>Softwind Lab</h1>
-  <div class="top-right">
-    <a href="mailto:softwindlab@gmail.com">Contact us</a>
-    <a href="/privacy.html" style="margin-left: 10px;">Privacy</a>
+  <div class="nav">
+    <a href="mailto:peter@softwindlab.com">Contact us</a>
+    <a href="privacy">Privacy</a>
   </div>
 </body>
 </html>
