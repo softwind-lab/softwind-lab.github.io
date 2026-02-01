@@ -1,95 +1,131 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-  <title>SoftwindLab</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
-  <style type="text/css">
-    header {
-      display: flex;
-      padding: 0 2rem;
-    }
-
-    .apps {
-      margin-top: calc(50vh - 260px);
-      display: inline-flex;
-      justify-content: space-between;
-      width: 100%;
-      max-width: 1000px;
-    }
-
-    .apps > div {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .apps img {
-      box-shadow: rgba(128, 128, 128, 0.3) 0 0 30px 10px;
-      border-radius: 40px;
-      margin-bottom: 20px;
-      width: 180px;
-      height: auto;
-    }
-
-    .footer {
-      font-size: 2em;
-      font-weight: bold;
-      margin-top: calc(25vh - 80px);
-      margin-bottom: 80px;
-    }
-
-    .footer a + a {
-      margin-left: 50px;
-    }
-
-    a {
-      text-decoration: none;
-      padding-bottom: 2px;
-      border-bottom: 2px solid;
-      color: black;
-    }
-
-    @media (max-width: 768px) {
-      .apps {
-        margin-top: 10vh;
-        flex-direction: column;
-        align-items: center;
+  <head>
+    <title>SoftwindLab</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="SoftwindLab 专注于移动应用开发的软件工作室。"
+    />
+    <meta name="og:title" content="SoftwindLab" />
+    <meta
+      name="og:description"
+      content="SoftwindLab 专注于移动应用开发的软件工作室。"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheets/application.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/index.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.softwindlab.com/#organization",
+            "name": "SoftwindLab",
+            "url": "https://www.softwindlab.com",
+            "description": "SoftwindLab 专注于移动应用开发的软件工作室。",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "peter@softwindlab.com",
+              "contactType": "customer service"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.softwindlab.com/#website",
+            "url": "https://www.softwindlab.com",
+            "name": "SoftwindLab",
+            "description": "SoftwindLab 专注于移动应用开发的软件工作室。",
+            "publisher": { "@id": "https://www.softwindlab.com/#organization" },
+            "inLanguage": "zh-CN"
+          },
+          {
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Coves",
+                "url": "https://www.softwindlab.com/products/coves.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Habit",
+                "url": "https://www.softwindlab.com/products/habit.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "DayCount",
+                "url": "https://www.softwindlab.com/products/daycount.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "SwiftList",
+                "url": "https://www.softwindlab.com/products/swiftlist.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "心情日记",
+                "url": "https://www.softwindlab.com/products/emoradar.html"
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "name": "时算",
+                "url": "https://www.softwindlab.com/products/appointment.html"
+              }
+            ]
+          }
+        ]
       }
+    </script>
+  </head>
+  <body class="text-center">
+    <header>
+      <h1>Softwind <span style="color: red">Lab</span></h1>
+    </header>
 
-      .apps > div + div {
-        margin-top: 10vh;
-      }
-    }
-  </style>
-</head>
-<body class="center">
-  <header>
-    <h1>Softwind <span style="color: red">Lab</span></h1>
-  </header>
+    <main class="apps">
+      <a href="products/coves.html" id="coves">
+        <img src="images/coves.png" alt="coves" />
+        <h2>Coves</h2>
+      </a>
+      <a id="habit">
+        <img src="images/habit.png" alt="habit" />
+        <h2>Habit</h2>
+      </a>
+      <a id="daycount">
+        <img src="images/daycount.png" alt="daycount" />
+        <h2>DayCount</h2>
+      </a>
+      <a id="swiftlist">
+        <img src="images/swiftlist.png" alt="swiftlist" />
+        <h2>SwiftList</h2>
+      </a>
+      <a id="emoradar">
+        <img src="images/emoradar.png" alt="emoRadar" />
+        <h2>心情日记</h2>
+      </a>
+      <a id="appointment">
+        <img src="images/appointment.png" alt="时算" />
+        <h2>时算</h2>
+      </a>
+    </main>
 
-  <div class="apps">
-    <div>
-      <img src="images/coves.png" alt="coves">
-      <h2>Coves</h2>
-    </div>
-    <div class="center">
-      <img src="images/habit.png" alt="habit">
-      <h2>Habit</h2>
-    </div>
-    <div class="center">
-      <img src="images/daycount.png" alt="daycount">
-      <h2>DayCount</h2>
-    </div>
-    <div class="center">
-      <img src="images/swiftlist.png" alt="swiftlist">
-      <h2>SwiftList</h2>
-    </div>
-  </div>
-
-  <div class="footer">
-    <a href="mailto:peter@softwindlab.com">Contact Us</a>
-    <a href="privacy.html">Privacy</a>
-  </div>
-</body>
+    <footer>
+      <section class="contact">
+        <a href="privacy.html">隐私政策</a>
+        <a href="mailto:peter@softwindlab.com">联系我们</a>
+      </section>
+      <a href="/">Powered by SoftwindLab</a>
+    </footer>
+  </body>
 </html>
