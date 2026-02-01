@@ -383,4 +383,9 @@
   .product-page .screenshot-grid img {
     max-width: 100%;
   }
+
+  .product-page .contact .section-content {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
 }
