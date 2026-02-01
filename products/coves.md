@@ -53,5 +53,5 @@ Coves 专为 ADHD 人群设计了友好模式：1）延长休息提醒，避免�
 - 邮件反馈：[peter@softwindlab.com](mailto:peter@softwindlab.com)
 - 官网：[www.softwindlab.com](https://www.softwindlab.com)
 - App Store：[Coves - Focus Timer 番茄专注](https://apps.apple.com/app/coves-focus-timer/id1400641344)
-- 小红书：[@SoftwindLab](https://www.xiaohongshu.com/user/profile/66275f240000000003026bd5)
-- Bilibili：[SoftwindLab 频道](https://space.bilibili.com/1622491561)
+- 小红书：[@Coves-时间管理](https://www.xiaohongshu.com/user/profile/66275f240000000003026bd5)
+- Bilibili：[Coves-学习计时器 频道](https://space.bilibili.com/1622491561)
