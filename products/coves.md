@@ -13,7 +13,7 @@ Coves 是一款面向学习与工作的专注计时应用，基于番茄工作�
 3. 任务与目标：分类目标、标签、起止日期，单任务可自定义番茄时长，支持倒计时续接与任务备注。
 4. 白噪音：海洋、雨声、森林、键盘声等多种环境音，提升专注与沉浸感。
 5. 数据统计：日 / 周 / 月 / 年计时记录，饼图与趋势图分析，数据报告与计划回顾。
-6. 多设备：支持 iPhone、iPad、Apple Watch，小组件与 Live Activity 实时显示。 
+6. 多设备：支持 iPhone、iPad、Apple Watch，小组件与 Live Activity 实时显示。
 
 ## 账户与内购
 
@@ -24,7 +24,6 @@ Coves 可在 App Store 免费下载并使用，绝大多数核心功能面向所
 - 白噪音：选择和自定义更多白噪音环境
 - 铃音：解锁全部专注与提醒铃声
 - 会员：获得专属会员权益
-
 
 ## 常见问题
 
@@ -50,8 +49,9 @@ Coves 专为 ADHD 人群设计了友好模式：1）延长休息提醒，避免�
 
 ## 联系信息及社交账号
 
-- 邮件反馈：[peter@softwindlab.com](mailto:peter@softwindlab.com)
+- 邮件反馈：[softwindlab@gmail.com](mailto:softwindlab@gmail.com)
 - 官网：[www.softwindlab.com](https://www.softwindlab.com)
 - App Store：[Coves - Focus Timer 番茄专注](https://apps.apple.com/app/coves-focus-timer/id1400641344)
 - 小红书：[@Coves-时间管理](https://www.xiaohongshu.com/user/profile/66275f240000000003026bd5)
 - Bilibili：[Coves-学习计时器 频道](https://space.bilibili.com/1622491561)
+
