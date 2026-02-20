@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 40px;
+  line-height: 1.5;
 }
 
 header {
@@ -41,6 +41,10 @@ a:focus-visible {
 
 img {
   max-width: 100%;
+}
+
+p {
+  margin: 0;
 }
 
 footer {

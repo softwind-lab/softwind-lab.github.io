@@ -22,13 +22,3 @@ mobileNavLinks.querySelectorAll("a").forEach((a) => {
     updateMobileNavToggle();
   });
 });
-
-const nav = document.querySelector(".product-page nav");
-if (nav) {
-  function updateNavScrolled() {
-    if (window.scrollY > 0) nav.classList.add("scrolled");
-    else nav.classList.remove("scrolled");
-  }
-  window.addEventListener("scroll", updateNavScrolled, { passive: true });
-  updateNavScrolled();
-}
