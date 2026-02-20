@@ -1,23 +1,26 @@
-# Softwind Lab
+# SoftwindLab
 
-> Softwind Lab 是一家专注于开发优雅、实用的移动应用产品创新工作室。我们致力于打造提升日常生活品质的数字化工具，涵盖习惯养成、时间管理与个人成长领域。
+SoftwindLab 是一家专注于移动应用开发的产品工作室，产品方向包括专注学习、习惯养成、纪念日管理、情绪记录与时间计算工具。
+
+Primary site: https://www.softwindlab.com/
+Sitemap: https://www.softwindlab.com/sitemap.xml
+Detailed model context: https://www.softwindlab.com/llms-full.txt
 
 ## Products
 
-- [Coves](https://www.softwindlab.com/products/coves): 专为提升专注力和创造力设计的番茄钟与沉浸式自然环境音应用，帮助用户进入心流状态。
-- [Habits](https://www.softwindlab.com/products/habits): 简洁优雅的习惯追踪应用，通过游戏化数据帮助用户建立并维持良好习惯。
-- [DaysCount](https://www.softwindlab.com/products/dayscount): 精美的倒数日与纪念日管理工具，记录生活中的重要时刻。
-- [雨燕清单](https://www.softwindlab.com/products/swiftlist): 以时间轴方式记录事件（备忘、笔记、清单、待办、日程），支持标签分类、颜色分类、状态管理与重要星标。
-- [情绪日记](https://www.softwindlab.com/products/emoradar): AI 驱动的情绪管理工具，通过多维记录、可视化分析与智能预警干预，帮助用户追踪情绪波动、发现规律并建立健康心理状态。
-- [时算](https://www.softwindlab.com/products/appointment): 小巧的家电预约时间计算器，一键精准计算24小时内目标预约时长，并支持桌面小组件实时查看。
+- [Coves](https://www.softwindlab.com/products/coves): 番茄钟与专注管理应用，支持白噪音、任务管理与专注数据分析。
+- [Habits](https://www.softwindlab.com/products/habits): 习惯追踪应用，帮助用户建立长期稳定习惯。
+- [DaysCount](https://www.softwindlab.com/products/dayscount): 倒数日与纪念日管理工具，记录重要日期。
+- [雨燕清单 SwiftList](https://www.softwindlab.com/products/swiftlist): 时间轴式清单与待办管理工具。
+- [情绪日记 EmoRadar](https://www.softwindlab.com/products/emoradar): AI 辅助的情绪记录和分析工具。
+- [时算 Appointment](https://www.softwindlab.com/products/appointment): 家电预约时间计算器与小组件工具。
 
-
-## Resources
+## Official channels
 
 - [小红书 @Coves-时间管理](https://www.xiaohongshu.com/user/profile/66275f240000000003026bd5)
-- [Bilibili Coves-学习计时器 频道](https://space.bilibili.com/1622491561)
+- [Bilibili Coves-学习计时器](https://space.bilibili.com/1622491561)
 
-## Support
+## Contact
 
-- [Contact](mailto:softwindlab@gmail.com): 用户反馈、商务合作与媒体咨询联系方式。
-- [Privacy Policy](https://www.softwindlab.com/privacy): 隐私政策与数据使用说明。
+- [Email support](mailto:softwindlab@gmail.com)
+- [Privacy policy](https://www.softwindlab.com/privacy)

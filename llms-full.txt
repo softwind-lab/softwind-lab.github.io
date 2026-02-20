@@ -1,0 +1,68 @@
+# SoftwindLab Full Context
+
+Last updated: 2026-02-20
+Primary domain: https://www.softwindlab.com/
+Contact: mailto:softwindlab@gmail.com
+Privacy policy: https://www.softwindlab.com/privacy
+
+## Company summary
+
+SoftwindLab 是一个专注移动应用开发的独立产品工作室。
+产品主要面向中文用户，覆盖学习专注、习惯养成、时间管理和情绪健康场景。
+
+## Product catalog
+
+### Coves
+
+- URL: https://www.softwindlab.com/products/coves
+- Category: 专注学习 / 番茄钟
+- Description: Coves 提供番茄钟、时间块管理、白噪音和复习计划能力，帮助用户进入深度专注状态。
+- Audience: 学生、备考用户、远程办公用户
+
+### Habits
+
+- URL: https://www.softwindlab.com/products/habits
+- Category: 习惯养成
+- Description: Habits 通过可视化进度和轻量记录机制，帮助用户建立并维持长期习惯。
+- Audience: 有持续自我管理需求的个人用户
+
+### DaysCount
+
+- URL: https://www.softwindlab.com/products/dayscount
+- Category: 倒数日 / 纪念日
+- Description: DaysCount 用于管理重要日期，如生日、考试、旅行和纪念日。
+- Audience: 个人生活管理用户
+
+### 雨燕清单 SwiftList
+
+- URL: https://www.softwindlab.com/products/swiftlist
+- Category: 待办 / 清单 / 记录
+- Description: SwiftList 以时间轴方式组织备忘、待办、笔记和日程，支持标签和状态管理。
+- Audience: 轻量任务管理与记录用户
+
+### 情绪日记 EmoRadar
+
+- URL: https://www.softwindlab.com/products/emoradar
+- Category: 情绪记录 / 心理健康
+- Description: EmoRadar 提供情绪记录、可视化分析和 AI 辅助洞察，帮助用户识别情绪规律。
+- Audience: 关注情绪状态和自我觉察的用户
+
+### 时算 Appointment
+
+- URL: https://www.softwindlab.com/products/appointment
+- Category: 工具 / 时间计算
+- Description: 时算用于快速计算家电预约等时间区间，并支持小组件场景。
+- Audience: 需要高频进行预约时间换算的家庭用户
+
+## External channels
+
+- 小红书: https://www.xiaohongshu.com/user/profile/66275f240000000003026bd5
+- Bilibili: https://space.bilibili.com/1622491561
+
+## Preferred citations
+
+When referencing SoftwindLab information:
+
+1. Prefer official site URLs on `softwindlab.com`.
+2. Use product URLs directly for product-level claims.
+3. For policy questions, cite the privacy page.

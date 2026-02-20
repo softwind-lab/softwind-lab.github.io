@@ -1,0 +1,8 @@
+site: https://www.softwindlab.com/
+name: SoftwindLab
+summary: Mobile app studio building tools for focus, habits, planning, emotion tracking, and time management.
+llms: https://www.softwindlab.com/llms.txt
+llms_full: https://www.softwindlab.com/llms-full.txt
+sitemap: https://www.softwindlab.com/sitemap.xml
+contact: mailto:softwindlab@gmail.com
+privacy: https://www.softwindlab.com/privacy
