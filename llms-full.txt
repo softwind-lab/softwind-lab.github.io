@@ -15,9 +15,19 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 ### Coves
 
 - URL: https://www.softwindlab.com/products/coves
+- Markdown source: https://www.softwindlab.com/products/coves.md
+- App Store: https://apps.apple.com/app/coves-focus-timer/id1400641344
 - Category: 专注学习 / 番茄钟
-- Description: Coves 提供番茄钟、时间块管理、白噪音和复习计划能力，帮助用户进入深度专注状态。
-- Audience: 学生、备考用户、远程办公用户
+- Positioning: 学生党专属的高效学习引擎，面向备考和高强度学习场景。
+- Description: Coves 融合四象限任务管理、番茄工作法和遗忘曲线复习，形成“计划-执行-复盘”闭环，帮助用户提升专注质量和学习效率。
+- Key features:
+  - 四象限任务管理器（重要/紧急任务管理与循环提醒）
+  - 3 合 1 计时器（番茄钟 25+5、正计时、考试模式）
+  - 遗忘曲线复习计划（关键节点自动提醒）
+  - 数据分析（专注度评分、分心趋势、热力日历）
+  - 跨设备同步（iPhone / iPad / Apple Watch）与小组件
+- Pricing model: 免费下载，部分高级功能通过内购解锁。
+- Audience: 学生、备考用户、希望系统提升专注效率的用户
 
 ### Habits
 
