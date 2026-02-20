@@ -16,7 +16,12 @@
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
     <link rel="canonical" href="https://www.softwindlab.com/" />
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <link
+      rel="sitemap"
+      type="application/xml"
+      title="Sitemap"
+      href="/sitemap.xml"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:site_name" content="SoftwindLab" />
@@ -116,20 +121,7 @@
         ]
       }
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NC6HWL507S"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-NC6HWL507S");
-    </script>
+    <script type="text/javascript" src="scripts/ga.js"></script>
   </head>
   <body class="text-center">
     <header class="container">
@@ -138,34 +130,42 @@
 
     <main class="apps container">
       <a href="products/coves" id="coves">
-        <img src="images/coves.png" alt="coves" />
+        <div class="app-icon"><img src="images/coves.png" alt="coves" /></div>
         <h2>Coves</h2>
       </a>
-      <a id="habit">
-        <img src="images/habits.png" alt="habits" />
+      <a href="products/habits" id="habit">
+        <div class="app-icon"><img src="images/habits.png" alt="habits" /></div>
         <h2>Habits</h2>
       </a>
       <a id="daycount">
-        <img src="images/dayscount.png" alt="dayscount" />
+        <div class="app-icon">
+          <img src="images/dayscount.png" alt="dayscount" />
+        </div>
         <h2>DaysCount</h2>
       </a>
       <a id="swiftlist">
-        <img src="images/swiftlist.png" alt="雨燕清单" />
+        <div class="app-icon">
+          <img src="images/swiftlist.png" alt="雨燕清单" />
+        </div>
         <h2>雨燕清单</h2>
       </a>
       <a id="emoradar">
-        <img src="images/emoradar.png" alt="emoRadar" />
+        <div class="app-icon">
+          <img src="images/emoradar.png" alt="emoRadar" />
+        </div>
         <h2>情绪日记</h2>
       </a>
       <a id="appointment">
-        <img src="images/appointment.png" alt="时算" />
+        <div class="app-icon">
+          <img src="images/appointment.png" alt="时算" />
+        </div>
         <h2>时算</h2>
       </a>
     </main>
 
     <footer class="container">
       <section class="contact">
-        <a href="privacy.html">隐私政策</a>
+        <a href="privacy">隐私政策</a>
         <a href="mailto:softwindlab@gmail.com">联系我们</a>
       </section>
       <a href="/">Powered by SoftwindLab</a>

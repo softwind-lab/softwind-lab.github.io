@@ -3,10 +3,10 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   isolation: isolate;
   font-weight: 500;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--nav-bg, rgba(255, 255, 255, 0.8));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -79,7 +79,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
     position: absolute;
     top: 100%;
     left: 0;
@@ -93,10 +93,8 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 8px;
+    background-color: var(--nav-bg, rgba(255, 255, 255, 0.8));
+    border-radius: inherit;
     z-index: -1;
   }
 
@@ -161,34 +159,43 @@
 
 .product-page .hero {
   background: linear-gradient(120deg, rgba(var(--primary-color-rgb), 0.1) 0%, rgba(var(--primary-color-rgb), 0.02) 100%);
+  background-size: cover;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  position: relative;
+  isolation: isolate;
+}
+
+.product-page .hero-bg-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(10px);
+
+  pointer-events: none;
+  z-index: 1;
+}
+
+.product-page .hero-bg-gradient {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
 }
 
 .product-page .hero .section-content {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  position: relative;
+  z-index: 3;
 }
 
-.product-page .hero-image {
-  width: 50%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.product-page .hero-image img {
-  max-width: 20rem;
-}
-
-.product-page .hero-image .caption {
-  font-size: 0.75rem;
-  color: #999;
-  letter-spacing: 0.02em;
+.product-page .hero-content {
+  max-width: 50%;
 }
 
 .product-page .hero h1 {
@@ -199,7 +206,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  text-transform: uppercase;
 }
 
 .product-page .hero .slogan {
@@ -211,7 +217,7 @@
 
 .product-page .hero .description {
   font-size: 1.2rem;
-  color: #666;
+  color: #333;
   margin-bottom: 4rem;
 }
 
@@ -396,6 +402,12 @@
   gap: 1rem;
 }
 
+@media (max-width: 1024px) {
+  .product-page .hero-content {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .product-page .screenshot-grid img {
     max-width: 160px;
@@ -416,6 +428,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 100%;
   }
 
   .product-page .hero-footer {

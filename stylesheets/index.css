@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   max-width: 1000px;
   padding-inline: 1rem;
+  padding-block: 2rem;
 }
 
 .apps a {
@@ -14,16 +15,20 @@
   color: black;
 }
 
-.apps img {
-  box-shadow: rgba(128, 128, 128, 0.3) 0 0 30px 10px;
-  border-radius: 40px;
-  margin-bottom: 20px;
+.apps .app-icon {
   width: 180px;
-  height: auto;
+  aspect-ratio: 1/1;
+  border-radius: 40px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: rgba(128, 128, 128, 0.3) 0 0 30px 10px;
   transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.apps a[href]:hover img {
+.apps a[href]:hover .app-icon {
   transform: scale(1.05);
 }
 

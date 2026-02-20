@@ -54,14 +54,6 @@
     />
     <link rel="stylesheet" type="text/css" href="../stylesheets/product.css" />
     <link rel="stylesheet" type="text/css" href="../stylesheets/coves.css" />
-
-    <style>
-      :root {
-        --primary-color: #7358d4;
-        --primary-color-rgb: 135, 109, 228;
-      }
-    </style>
-
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -89,27 +81,21 @@
               "跨设备同步：手机/平板/手表数据实时互通，小组件快捷操作"
             ],
             "audience": {
-              "@type": "Audience",
-              "audienceType": "学生、自由职业者、远程工作者、ADHD人群"
+              "@type": "PeopleAudience",
+              "audienceType": [
+                "学生",
+                "自由职业者",
+                "远程工作者",
+                "ADHD人群",
+                "效率工具用户"
+              ]
             }
           }
         ]
       }
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NC6HWL507S"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-NC6HWL507S");
-    </script>
+    <script type="text/javascript" src="../scripts/nav.js"></script>
+    <script type="text/javascript" src="../scripts/ga.js"></script>
   </head>
   <body class="product-page coves">
     <nav>
@@ -178,7 +164,7 @@
         <div class="hero-bg-gradient"></div>
         <div class="section-content container">
           <div class="hero-content">
-            <h1>Coves</h1>
+            <h1>COVES</h1>
             <p class="slogan">学生党专属的高效学习引擎</p>
             <div>
               <div class="app-store-badges">
@@ -535,7 +521,7 @@
       <section class="contact" id="contact">
         <div class="section-content container">
           <div class="footer-links">
-            <a href="../privacy.html">隐私政策</a>
+            <a href="../privacy">隐私政策</a>
             <a href="mailto:softwindlab@gmail.com">联系我们</a>
           </div>
           <div class="footer-links">
@@ -565,7 +551,5 @@
     <footer class="container">
       <a href="/">Powered by SoftwindLab</a>
     </footer>
-
-    <script type="text/javascript" src="../scripts/nav.js"></script>
   </body>
 </html>

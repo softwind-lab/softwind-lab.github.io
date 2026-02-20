@@ -1,0 +1,55 @@
+:root {
+  --primary-color-rgb: 96, 183, 84;
+  --primary-color: rgb(var(--primary-color-rgb));
+  --bg-color-rgb: 225, 252, 255;
+  --bg-color: rgba(var(--bg-color-rgb), 1);
+  --nav-bg: rgba(var(--bg-color-rgb), 0.8);
+}
+
+.habits .hero {
+  background: url(../images/habits/hero-bg.png) no-repeat center center;
+}
+
+.habits .hero-bg-blur {
+  /* 渐变裁剪 */
+  mask-image: linear-gradient(to right,
+      black 0%,
+      black 45%,
+      transparent 60%);
+
+  -webkit-mask-image: linear-gradient(to right,
+      black 0%,
+      black 45%,
+      transparent 60%);
+}
+
+.habits .hero-bg-gradient {
+  background: linear-gradient(to right,
+      var(--nav-bg) 20%,
+      rgba(var(--primary-color-rgb), 0.5) 50%,
+      rgba(var(--primary-color-rgb), 0.5) 55%,
+      transparent 75%),
+    linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0.8) 55%, transparent 90%);
+}
+
+@media (max-width: 768px) {
+  .habits .hero-bg-blur {
+    mask-image: linear-gradient(to right,
+        black 0%,
+        black 60%,
+        transparent 100%);
+
+    -webkit-mask-image: linear-gradient(to right,
+        black 0%,
+        black 60%,
+        transparent 100%);
+  }
+
+  .habits .hero-bg-gradient {
+    background: linear-gradient(to right,
+        var(--nav-bg) 20%,
+        rgba(var(--primary-color-rgb), 0.5) 60%,
+        transparent 100%),
+      linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0.8) 70%, transparent 90%);
+  }
+}
