@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #7358d4;
   --primary-color-rgb: 135, 109, 228;
+  --primary-color: rgb(var(--primary-color-rgb));
 }
 
 .coves .hero {
-  background: url(../images/coves/hero-bg.png) no-repeat center center;
+  background-image: url(../images/coves/hero-bg.png);
 }
 
 .coves .hero-bg-blur {

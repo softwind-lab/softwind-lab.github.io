@@ -7,7 +7,7 @@
 }
 
 .habits .hero {
-  background: url(../images/habits/hero-bg.png) no-repeat center center;
+  background-image: url(../images/habits/hero-bg.png);
 }
 
 .habits .hero-bg-blur {

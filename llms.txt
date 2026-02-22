@@ -10,7 +10,7 @@ Detailed model context: https://www.softwindlab.com/llms-full.txt
 
 - [Coves](https://www.softwindlab.com/products/coves): 番茄钟与专注管理应用，支持白噪音、任务管理与专注数据分析。
 - [Habits](https://www.softwindlab.com/products/habits): 习惯追踪应用，帮助用户建立长期稳定习惯。
-- [DaysCount](https://www.softwindlab.com/products/dayscount): 倒数日与纪念日管理工具，记录重要日期。
+- [DaysCount](https://www.softwindlab.com/products/dayscount): 桌面上的可爱时间卡片，记录每一个闪亮的日子。
 - [雨燕清单 SwiftList](https://www.softwindlab.com/products/swiftlist): 时间轴式清单与待办管理工具。
 - [情绪日记 EmoRadar](https://www.softwindlab.com/products/emoradar): AI 辅助的情绪记录和分析工具。
 - [时算 Appointment](https://www.softwindlab.com/products/appointment): 家电预约时间计算器与小组件工具。

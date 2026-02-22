@@ -49,7 +49,7 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 
 - URL: https://www.softwindlab.com/products/dayscount
 - Category: 倒数日 / 纪念日
-- Description: DaysCount 用于管理重要日期，如生日、考试、旅行和纪念日。
+- Description: DaysCount 是一款拥有精美卡通卡片和桌面小组件的日期记录器，帮你轻松管理纪念日、倒计时和习惯打卡。
 - Audience: 个人生活管理用户
 
 ### 雨燕清单 SwiftList

@@ -1,0 +1,70 @@
+:root {
+  --primary-color-rgb: 48, 180, 151;
+  --primary-color: rgb(var(--primary-color-rgb));
+  --bg-color-rgb: 225, 252, 255;
+  --bg-color: rgba(var(--bg-color-rgb), 1);
+}
+
+.dayscount .hero {
+  background-image: url(../images/dayscount/hero-bg.png);
+}
+
+.dayscount .hero-bg-blur {
+  /* 渐变裁剪 */
+  mask-image: linear-gradient(to right,
+      black 0%,
+      black 45%,
+      transparent 55%);
+
+  -webkit-mask-image: linear-gradient(to right,
+      black 0%,
+      black 45%,
+      transparent 55%);
+}
+
+.dayscount .hero-bg-gradient {
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 1) 25%,
+      rgba(var(--primary-color-rgb), 0.4) 45%,
+      rgba(var(--primary-color-rgb), 0.45) 50%,
+      rgba(var(--primary-color-rgb), 0.4) 55%,
+      transparent 75%),
+    linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0.8) 55%, transparent 70%);
+}
+
+.dayscount .hero .slogan {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+.dayscount .hero-images {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dayscount .hero-images img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+@media (max-width: 64rem) {
+  .dayscount .hero-bg-gradient {
+    background: linear-gradient(to right,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(var(--primary-color-rgb), 0.4) 60%,
+        transparent 100%),
+      linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0.8) 60%, transparent 100%);
+  }
+}
+
+@media (max-width: 48rem) {
+  .dayscount .hero h1 {
+    font-size: 4rem;
+  }
+
+  .dayscount .hero .slogan {
+    font-size: 2rem;
+  }
+}
