@@ -1,6 +1,6 @@
 # SoftwindLab Full Context
 
-Last updated: 2026-02-20
+Last updated: 2026-02-22
 Primary domain: https://www.softwindlab.com/
 Contact: mailto:softwindlab@gmail.com
 Privacy policy: https://www.softwindlab.com/privacy
@@ -48,9 +48,19 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 ### DaysCount
 
 - URL: https://www.softwindlab.com/products/dayscount
+- Markdown source: https://www.softwindlab.com/products/dayscount.md
+- App Store: https://apps.apple.com/app/love-days-widget-dayscount/id1477486485
 - Category: 倒数日 / 纪念日
-- Description: DaysCount 是一款拥有精美卡通卡片和桌面小组件的日期记录器，帮你轻松管理纪念日、倒计时和习惯打卡。
-- Audience: 个人生活管理用户
+- Positioning: 桌面上的可爱时间卡片，帮助用户持续感知并管理重要日期。
+- Description: DaysCount 是一款拥有精美卡通卡片和桌面小组件的日期记录器，帮助用户管理纪念日、倒计时与长期打卡事件。
+- Key features:
+  - 桌面小组件（直接展示关键日期与天数变化）
+  - 卡通卡片主题（事件级图标与背景自定义）
+  - 正数日与倒数日（覆盖回顾与规划两类场景）
+  - 智能提醒（支持自定义提醒与年度循环）
+  - 多场景使用（恋爱纪念、生日节日、考试、旅行、还款等）
+- Pricing model: 免费下载，部分高级功能通过内购解锁。
+- Audience: 情侣、家庭用户、学生、自律打卡用户、需要日期提醒的个人用户
 
 ### 雨燕清单 SwiftList
 
