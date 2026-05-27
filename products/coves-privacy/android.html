@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App 隐私政策</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .privacy-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 24px;
+            color: #111;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .update-date {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #222;
+            border-left: 4px solid #ff5722;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #000;
+        }
+        ul, ol {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .special-note {
+            background-color: #fff8f6;
+            border: 1px solid #ffebe6;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .special-note h3 {
+            margin-top: 0;
+            color: #ff5722;
+            font-size: 16px;
+        }
+        .sdk-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .sdk-item {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            border-left: 3px solid #ccc;
+        }
+        .sdk-name {
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .sdk-detail {
+            font-size: 14px;
+            color: #555;
+            margin: 3px 0;
+        }
+        .sdk-link {
+            color: #0066cc;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .sdk-link:hover {
+            text-decoration: underline;
+        }
+        .footer-promise {
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            font-weight: bold;
+        }
+        .agreement-btn {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 30px auto 10px auto;
+            padding: 12px;
+            background-color: #ff5722;
+            color: #fff;
+            text-align: center;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="privacy-container">
+    <h1>App 隐私政策</h1>
+    <div class="update-date">更新日期：2026年5月27日</div>
+
+    <p>番茄钟计时器软件 (应用) 是由西安微风互动科技有限公司 Softwind Lab (开发者) 为您提供专注计时、学习报表及数据同步的应用。如果您有任何疑问，请通过以下方式与我们联系：<a href="mailto:softwindlab@gmail.com" class="sdk-link">softwindlab@gmail.com</a></p>
+
+    <p>在您使用本应用前，请仔细阅读并同意本《隐私政策》。我们将处理以下必要信息：</p>
+
+    <ol>
+        <li>
+            <span class="highlight">传感器信息：</span><br>
+            我们的“拿起手机检测”功能会收集并读取<span class="highlight">【加速度传感器、陀螺仪等特定传感器信息】</span>，用于在专注时段检测手机状态，帮助您分析专注模式，提升效率。
+        </li>
+        <li>
+            <span class="highlight">账号信息：</span><br>
+            当您使用第三方账号（如微信）登录时，我们会收集您的<span class="highlight">【头像、昵称】</span>，用于展示您的个人资料并实现跨设备数据同步。
+        </li>
+        <li>
+            <span class="highlight">使用数据：</span><br>
+            在您同意后，我们会记录您的<span class="highlight">【专注时长、统计类别】</span>，为您生成可视化的学习报表。
+        </li>
+        <li>
+            <span class="highlight">设备与日志信息：</span><br>
+            为保障应用安全、稳定运行，进行故障排查及改进服务质量，我们可能会收集您的<span class="highlight">【设备型号、操作系统版本、唯一设备标识符（如Android ID）、设备MAC地址、软件安装列表、网络信息】</span>及崩溃日志。此类信息仅用于统计分析及服务优化，不会与您的个人身份直接关联。
+        </li>
+    </ol>
+
+    <div class="special-note">
+        <h3>特别说明：</h3>
+        <ul>
+            <li><span class="highlight">收集设备MAC地址、软件安装列表的目的：</span>用于设备识别、安全风控、统计分析及确保第三方SDK（如微信登录）功能的正常实现。</li>
+            <li><span class="highlight">收集方式：</span>通过应用自身及集成的第三方SDK在您同意本政策后收集。</li>
+            <li><span class="highlight">使用范围：</span>仅限于实现上述目的，不会用于其他无关用途。</li>
+        </ul>
+    </div>
+
+    <h2>第三方SDK信息：</h2>
+    <p>为保障相关功能的实现与应用安全稳定运行，我们集成了第三方软件开发工具包（SDK）。我们会对合作方获取信息的SDK进行严格的安全评估，以保护您的个人信息。本应用集成的第三方SDK详情如下：</p>
+
+    <ul class="sdk-list">
+        <li class="sdk-item">
+            <div class="sdk-name">1. SDK名称：微信OpenSDK Android</div>
+            <div class="sdk-detail">开发者：深圳市腾讯计算机系统有限公司</div>
+            <div class="sdk-detail">使用目的：支持微信登录、分享功能</div>
+            <div class="sdk-detail">收集个人信息类型：设备标识符（如Android ID）、设备MAC地址、软件安装列表、网络信息、头像、昵称（注：头像、昵称为用户登录时自愿提供）</div>
+            <div class="sdk-detail">SDK隐私政策链接：<a href="https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/RYiYJkLOrQwu0nb8" target="_blank" class="sdk-link">查看政策</a></div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">2. SDK名称：Google Play Billing Library</div>
+            <div class="sdk-detail">开发者：Google LLC</div>
+            <div class="sdk-detail">使用目的：应用内购买与支付</div>
+            <div class="sdk-detail">收集个人信息类型：订单信息、支付状态（具体收集信息以Google支付服务政策为准）</div>
+            <div class="sdk-detail">SDK隐私政策链接：<a href="https://policies.google.com/privacy" target="_blank" class="sdk-link">查看政策</a></div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">3. SDK名称：MPAndroidChart</div>
+            <div class="sdk-detail">开发者：个人开发者 (PhilJay)</div>
+            <div class="sdk-detail">使用目的：图表绘制与数据可视化</div>
+            <div class="sdk-detail">收集个人信息类型：不收集个人信息</div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">4. SDK名称：OkHttp</div>
+            <div class="sdk-detail">开发者：Square公司</div>
+            <div class="sdk-detail">使用目的：网络请求</div>
+            <div class="sdk-detail">收集个人信息类型：不收集个人信息</div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">5. SDK名称：AliFastJson</div>
+            <div class="sdk-detail">开发者：杭州阿里巴巴广告有限公司</div>
+            <div class="sdk-detail">使用目的：JSON数据解析</div>
+            <div class="sdk-detail">收集个人信息类型：不收集个人信息</div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">6. SDK名称：Apache HttpComponents</div>
+            <div class="sdk-detail">开发者：Apache Software Foundation</div>
+            <div class="sdk-detail">使用目的：网络通信</div>
+            <div class="sdk-detail">收集个人信息类型：不收集个人信息</div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">7. SDK名称：FasterXML Jackson</div>
+            <div class="sdk-detail">开发者：FasterXML公司</div>
+            <div class="sdk-detail">使用目的：JSON数据处理</div>
+            <div class="sdk-detail">收集个人信息类型：不收集个人信息</div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">8. SDK名称：Google Gson</div>
+            <div class="sdk-detail">开发者：Google LLC</div>
+            <div class="sdk-detail">使用目的：JSON数据序列化/反序列化</div>
+            <div class="sdk-detail">收集个人信息类型：不收集个人信息</div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">9. SDK名称：Apache Sanselan</div>
+            <div class="sdk-detail">开发者：Apache Software Foundation</div>
+            <div class="sdk-detail">使用目的：图像处理</div>
+            <div class="sdk-detail">收集个人信息类型：不收集个人信息</div>
+        </li>
+
+        <li class="sdk-item">
+            <div class="sdk-name">10. SDK名称：Bouncy Castle</div>
+            <div class="sdk-detail">开发者：Bouncy Castle项目</div>
+            <div class="sdk-detail">使用目的：加密与安全功能</div>
+            <div class="sdk-detail">收集个人信息类型：不收集个人信息</div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
