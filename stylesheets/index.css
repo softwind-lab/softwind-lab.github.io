@@ -38,6 +38,12 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  color: #666;
+  font-size: 14px;
+}
+
+footer a {
+  color: inherit;
 }
 
 .contact {
