@@ -1,0 +1,61 @@
+:root {
+  --primary-color-rgb: 139, 134, 246;
+  --primary-color: rgb(var(--primary-color-rgb));
+  --bg-color-rgb: 240, 242, 255;
+  --bg-color: rgba(var(--bg-color-rgb), 1);
+  --nav-bg: rgba(var(--bg-color-rgb), 0.85);
+}
+
+.textpad .hero {
+  background-image: url(../images/textpad/hero-bg.png);
+}
+
+.textpad .hero-bg-blur {
+  /* 渐变裁剪 */
+  mask-image: linear-gradient(to right,
+      black 0%,
+      black 45%,
+      transparent 60%);
+
+  -webkit-mask-image: linear-gradient(to right,
+      black 0%,
+      black 45%,
+      transparent 60%);
+}
+
+.textpad .hero-bg-gradient {
+  background: linear-gradient(to right,
+      var(--nav-bg) 20%,
+      rgba(var(--primary-color-rgb), 0.5) 50%,
+      rgba(var(--primary-color-rgb), 0.5) 55%,
+      transparent 75%),
+    linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0.8) 55%, transparent 90%);
+}
+
+@media (min-width: 768px) {
+  .textpad .hero-content {
+    max-width: 60%;
+  }  
+}
+
+@media (max-width: 768px) {
+  .textpad .hero-bg-blur {
+    mask-image: linear-gradient(to right,
+        black 0%,
+        black 60%,
+        transparent 100%);
+
+    -webkit-mask-image: linear-gradient(to right,
+        black 0%,
+        black 60%,
+        transparent 100%);
+  }
+
+  .textpad .hero-bg-gradient {
+    background: linear-gradient(to right,
+        var(--nav-bg) 20%,
+        rgba(var(--primary-color-rgb), 0.5) 60%,
+        transparent 100%),
+      linear-gradient(to right, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0.8) 70%, transparent 90%);
+  }
+}

@@ -14,6 +14,7 @@ Detailed model context: https://www.softwindlab.com/llms-full.txt
 - [雨燕清单 SwiftList](https://www.softwindlab.com/products/swiftlist): 时间轴式清单与待办管理工具。
 - [情绪日记 EmoRadar](https://www.softwindlab.com/products/emoradar): AI 辅助的情绪记录和分析工具。
 - [时算 Appointment](https://www.softwindlab.com/products/appointment): 家电预约时间计算器与小组件工具。
+- [TextPad](https://www.softwindlab.com/products/textpad): macOS 智能文本编辑与采集工具成。
 
 ## Official channels
 

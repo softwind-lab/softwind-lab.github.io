@@ -83,6 +83,13 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 - Description: 时算用于快速计算家电预约等时间区间，并支持小组件场景。
 - Audience: 需要高频进行预约时间换算的家庭用户
 
+### TextPad
+
+- URL: https://www.softwindlab.com/products/textpad
+- Category: 工具 / 效率
+- Description: macOS 智能文本编辑与采集工具
+- Audience: 开发者、写作人员以及任何需要高频处理文本信息的用户
+
 ## External channels
 
 - 小红书（coves）: https://www.xiaohongshu.com/user/profile/66275f240000000003026bd5

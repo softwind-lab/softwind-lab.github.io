@@ -49,14 +49,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.softwindlab.com/products/textpad</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.softwindlab.com/llms.txt</loc>
-    <lastmod>2026-02-22</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.softwindlab.com/llms-full.txt</loc>
-    <lastmod>2026-02-22</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
