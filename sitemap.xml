@@ -13,6 +13,12 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://www.softwindlab.com/habits-terms.html</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://www.softwindlab.com/products/coves</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
