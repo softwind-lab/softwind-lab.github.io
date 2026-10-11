@@ -14,7 +14,7 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 
 ### Coves
 
-- URL: https://www.softwindlab.com/products/coves
+- URL: https://www.softwindlab.com/products/coves/
 - Markdown source: https://www.softwindlab.com/products/coves.md
 - App Store: https://apps.apple.com/app/coves-focus-timer/id1400641344
 - Category: 专注学习 / 番茄钟
@@ -31,7 +31,7 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 
 ### Habits
 
-- URL: https://www.softwindlab.com/products/habits
+- URL: https://www.softwindlab.com/products/habits/
 - Markdown source: https://www.softwindlab.com/products/habits.md
 - App Store: https://apps.apple.com/app/habit-tracker-planner-habits/id1449410447
 - Category: 习惯养成

@@ -1,0 +1,74 @@
+/* 用户条款页（Coves、Habits 共用），配合 scripts/terms.js */
+
+/* 有 JS 时只显示当前语言的区块；没有 JS 时全部显示，保证内容一定看得到 */
+.js .modern {
+  display: none;
+}
+
+.js .modern.show {
+  display: block;
+}
+
+/* 正文限宽，长段落好读 */
+.terms main.container {
+  max-width: 48rem;
+  padding-bottom: 2rem;
+  line-height: 1.75;
+  color: #1f2937;
+}
+
+.terms h1 {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin: 0 0 0.25rem;
+  color: #111827;
+}
+
+.terms h2 {
+  font-size: 1.15rem;
+  margin: 2rem 0 0.5rem;
+  color: #111827;
+}
+
+.terms main p + p {
+  margin-top: 0.5rem;
+}
+
+.terms main ul {
+  margin: 0.5rem 0;
+  padding-left: 1.4rem;
+}
+
+.terms main li {
+  margin: 0.25rem 0;
+}
+
+.terms main .modern a {
+  color: #2563eb;
+}
+
+.terms .updated {
+  color: #6b7280;
+  font-size: 13px;
+  margin-bottom: 1.5rem;
+}
+
+.terms .lang {
+  display: flex;
+  gap: 10px;
+  margin: 8px 0 24px;
+  flex-wrap: wrap;
+}
+
+.terms .lang a {
+  font-size: 13px;
+  color: #4b5563;
+  border: 1px solid #d1d5db;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.terms .lang a.active {
+  color: #111827;
+  border-color: #111827;
+}

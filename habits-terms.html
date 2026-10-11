@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-Hans">
   <head>
-    <title>用户条款 / Terms of Use - SoftwindLab</title>
+    <title>Habits 用户条款 / Terms of Use - SoftwindLab</title>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -15,58 +15,34 @@
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
-    <link rel="canonical" href="https://www.softwindlab.com/habits-terms.html" />
+    <link rel="canonical" href="https://www.softwindlab.com/products/habits/terms" />
+    <link rel="icon" href="/images/habits.png" />
     <meta property="og:type" content="article" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:site_name" content="SoftwindLab" />
-    <meta property="og:title" content="用户条款 / Terms of Use - SoftwindLab" />
+    <meta property="og:title" content="Habits 用户条款 / Terms of Use - SoftwindLab" />
     <meta
       property="og:description"
       content="Habits 用户条款（EULA）：订阅与内购、自动续订、恢复购买、数据与隐私说明。"
     />
-    <meta property="og:url" content="https://www.softwindlab.com/habits-terms.html" />
+    <meta property="og:url" content="https://www.softwindlab.com/products/habits/terms" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="用户条款 / Terms of Use - SoftwindLab" />
+    <meta name="twitter:title" content="Habits 用户条款 / Terms of Use - SoftwindLab" />
     <meta
       name="twitter:description"
       content="Habits 用户条款（EULA）：订阅与内购、自动续订、恢复购买、数据与隐私说明。"
     />
-    <link rel="stylesheet" type="text/css" href="stylesheets/application.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/application.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/terms.css" />
     <script>
       // 先标记 JS 可用，再决定是否只显示当前语言区块（无 JS 时四种语言全部显示，保证内容一定可见）
       document.documentElement.className += " js";
     </script>
-    <style>
-      .js .modern { display: none; }
-      .js .modern.show { display: block; }
-      .lang { display: flex; gap: 10px; margin: 8px 0 20px; flex-wrap: wrap; }
-      .lang a {
-        font-size: 13px;
-        text-decoration: none;
-        border: 1px solid #d1d5db;
-        padding: 4px 12px;
-        border-radius: 999px;
-      }
-      .updated { opacity: 0.65; font-size: 13px; margin-bottom: 24px; }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NC6HWL507S"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-NC6HWL507S");
-    </script>
+    <script type="text/javascript" src="/scripts/ga.js"></script>
   </head>
-  <body>
+  <body class="terms">
     <header class="container">
-      <a href="./index.html" class="back-link">&lt; 返回</a>
+      <a href="/products/habits/" class="back-link">&lt; Habits</a>
     </header>
     <main class="container">
       <div class="lang">
@@ -431,32 +407,6 @@
     <footer>
       <a href="/">Powered by SoftwindLab</a>
     </footer>
-    <script>
-      (function () {
-        var map = {
-          zh: "zh", "zh-cn": "zh", "zh-hans": "zh", "zh-hant": "zh",
-          en: "en",
-          ja: "ja",
-          ko: "ko"
-        };
-        var lang = map[(navigator.language || "zh").toLowerCase()] || "zh";
-        var target = document.getElementById(lang) || document.getElementById("zh");
-        target.classList.add("show");
-        // 点击语言锚点：不跳转，直接切换显示
-        var links = document.querySelectorAll(".lang a");
-        for (var i = 0; i < links.length; i++) {
-          links[i].addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").slice(1);
-            var blocks = document.querySelectorAll(".modern");
-            for (var j = 0; j < blocks.length; j++) {
-              blocks[j].classList.remove("show");
-            }
-            var el = document.getElementById(id);
-            if (el) el.classList.add("show");
-          });
-        }
-      })();
-    </script>
+    <script type="text/javascript" src="/scripts/terms.js"></script>
   </body>
 </html>
