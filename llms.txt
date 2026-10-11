@@ -1,6 +1,6 @@
 # SoftwindLab
 
-SoftwindLab 是一家专注于移动应用开发的产品工作室，产品方向包括专注学习、习惯养成、纪念日管理、情绪记录与时间计算工具。
+SoftwindLab 是一家专注于移动应用开发的产品工作室，产品方向包括专注学习、习惯养成、纪念日管理、情绪记录、时间计算工具与解谜游戏。
 
 Primary site: https://www.softwindlab.com/
 Sitemap: https://www.softwindlab.com/sitemap.xml
@@ -8,13 +8,14 @@ Detailed model context: https://www.softwindlab.com/llms-full.txt
 
 ## Products
 
-- [Coves](https://www.softwindlab.com/products/coves): 番茄钟与专注管理应用，支持白噪音、任务管理与专注数据分析。
-- [Habits](https://www.softwindlab.com/products/habits): 习惯追踪应用，帮助用户建立长期稳定习惯。
+- [Coves](https://www.softwindlab.com/products/coves/): 番茄钟与专注管理应用，支持白噪音、任务管理与专注数据分析。
+- [Habits](https://www.softwindlab.com/products/habits/): 习惯追踪应用，帮助用户建立长期稳定习惯。
 - [DaysCount](https://www.softwindlab.com/products/dayscount): 桌面上的可爱时间卡片，记录每一个闪亮的日子。
 - [雨燕清单 SwiftList](https://www.softwindlab.com/products/swiftlist): 时间轴式清单与待办管理工具。
 - [情绪日记 EmoRadar](https://www.softwindlab.com/products/emoradar): AI 辅助的情绪记录和分析工具。
 - [时算 Appointment](https://www.softwindlab.com/products/appointment): 家电预约时间计算器与小组件工具。
 - [TextPad](https://www.softwindlab.com/products/textpad): macOS 智能文本编辑与采集工具成。
+- [数字密室 Sudoku Escape](https://www.softwindlab.com/products/sudoku-escape/): 用数独讲故事的侦探解谜游戏，解开数独拿到线索、指认真凶。
 
 ## Official channels
 

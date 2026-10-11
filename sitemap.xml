@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.softwindlab.com/</loc>
-    <lastmod>2026-02-22</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13,25 +13,37 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.softwindlab.com/habits-terms.html</loc>
-    <lastmod>2026-09-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://www.softwindlab.com/coves-terms.html</loc>
+    <loc>https://www.softwindlab.com/products/coves/terms</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://www.softwindlab.com/products/coves</loc>
+    <loc>https://www.softwindlab.com/products/coves/privacy/android</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.softwindlab.com/products/habits/terms</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.softwindlab.com/products/sudoku-escape/privacy</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.softwindlab.com/products/coves/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.softwindlab.com/products/habits</loc>
+    <loc>https://www.softwindlab.com/products/habits/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -67,14 +79,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.softwindlab.com/products/sudoku-escape/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.softwindlab.com/llms.txt</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.softwindlab.com/llms-full.txt</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

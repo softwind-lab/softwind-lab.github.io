@@ -1,0 +1,240 @@
+/* 数字密室：米纸底 + 两版墨（钴蓝 / 珊瑚粉），取色同 App 默认墨组 */
+:root {
+  --primary-color-rgb: 35, 66, 181;
+  --primary-color: rgb(var(--primary-color-rgb));
+  --accent-color-rgb: 250, 82, 136;
+  --accent-color: rgb(var(--accent-color-rgb));
+  --bg-color-rgb: 244, 239, 228;
+  --bg-color: rgba(var(--bg-color-rgb), 1);
+  --nav-bg: rgba(var(--bg-color-rgb), 0.85);
+  --rule-color: rgba(var(--primary-color-rgb), 0.12);
+}
+
+/* 多语言：只显示和 <html lang> 一致的那一份（语言由 scripts/i18n.js 决定） */
+:root:not([lang="en"]) [lang="en"],
+:root:not([lang="zh-Hans"]) [lang="zh-Hans"],
+:root:not([lang="ja"]) [lang="ja"] {
+  display: none !important;
+}
+
+.sudoku-escape {
+  background-color: var(--bg-color);
+}
+
+.sudoku-escape nav .logo {
+  color: var(--primary-color);
+}
+
+.sudoku-escape nav a {
+  white-space: nowrap;
+}
+
+/* 语言下拉框：胶囊形，箭头用钴蓝 */
+.sudoku-escape .lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--primary-color);
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%232342B5' stroke-width='1.5'/%3E%3C/svg%3E")
+    no-repeat right 0.65rem center / 0.6rem;
+  border: 1px solid rgba(var(--primary-color-rgb), 0.3);
+  border-radius: 999px;
+  padding: 0.15rem 1.6rem 0.15rem 0.75rem;
+  cursor: pointer;
+}
+
+.sudoku-escape .lang-select[hidden] {
+  display: none;
+}
+
+.sudoku-escape nav .mobile-nav-content .lang-select {
+  align-self: flex-start;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+/* 平板宽度下导航放不下（日语最长）：收紧间距，「联系我们」只留在页底和手机菜单里 */
+@media (max-width: 64rem) {
+  .sudoku-escape nav .desktop-nav-links {
+    gap: 1.25rem;
+  }
+
+  .sudoku-escape nav .desktop-nav-links .nav-contact {
+    display: none;
+  }
+
+  .sudoku-escape nav .desktop-nav-links .cta-appstore {
+    margin-left: 0.5rem;
+  }
+}
+
+/* 按钮：钴蓝实底 + 珊瑚硬投影 */
+.sudoku-escape .cta-appstore {
+  background: var(--primary-color);
+  color: var(--bg-color);
+  box-shadow: 3px 3px 0 var(--accent-color);
+}
+
+.sudoku-escape .cta-appstore:hover {
+  color: var(--bg-color);
+}
+
+/* Hero：左文右图 */
+.sudoku-escape .hero {
+  background-image: none;
+  padding-bottom: 4rem;
+}
+
+.sudoku-escape .hero .section-content {
+  align-items: center;
+}
+
+.sudoku-escape .hero .kicker {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+/* 标题：错开一点的第二版墨，模拟套印错位 */
+.sudoku-escape .hero h1 {
+  color: var(--primary-color);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  text-shadow: 0.05em 0.04em 0 rgba(var(--accent-color-rgb), 0.6);
+}
+
+.sudoku-escape .hero .slogan {
+  color: var(--primary-color);
+  margin-bottom: 2.5rem;
+}
+
+.sudoku-escape .hero .description {
+  color: #2b2d3a;
+  margin-bottom: 2.5rem;
+}
+
+.sudoku-escape .hero-art {
+  flex: 0 0 34%;
+  max-width: 420px;
+  margin: 0;
+}
+
+.sudoku-escape .hero-art img {
+  display: block;
+  width: 100%;
+  box-shadow: 14px 14px 0 rgba(var(--accent-color-rgb), 0.85);
+}
+
+@media (min-width: 48rem) {
+  .sudoku-escape .hero-content {
+    max-width: 60%;
+  }
+}
+
+/* 分隔线换成墨色，白底下的 #f0f0f0 在纸上看不见 */
+.sudoku-escape .features li,
+.sudoku-escape .faq-list li,
+.sudoku-escape .faq-section summary {
+  border-bottom-color: var(--rule-color);
+}
+
+.sudoku-escape .features .feature-icon {
+  color: var(--accent-color);
+}
+
+/* 案件卡 */
+.sudoku-escape .cases {
+  background-color: rgba(var(--primary-color-rgb), 0.05);
+}
+
+.sudoku-escape .section-intro {
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.sudoku-escape .case-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  max-width: 44rem;
+}
+
+.sudoku-escape .case-list li {
+  background-color: var(--bg-color);
+  border: 2px solid var(--primary-color);
+  box-shadow: 6px 6px 0 var(--accent-color);
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+/* 还没公开的案件：虚线框 + 涂黑的标题，只留一点悬念 */
+.sudoku-escape .case-list li.sealed {
+  border-style: dashed;
+  box-shadow: 6px 6px 0 rgba(var(--accent-color-rgb), 0.35);
+}
+
+.sudoku-escape .case-list .redacted {
+  display: block;
+  width: 9em;
+  max-width: 100%;
+  height: 1.4rem;
+  background-color: var(--primary-color);
+  box-shadow: 3px 2px 0 rgba(var(--accent-color-rgb), 0.6);
+  margin: 0.4rem 0 0.75rem;
+}
+
+.sudoku-escape .case-list .case-no {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: rgba(var(--primary-color-rgb), 0.7);
+}
+
+.sudoku-escape .case-list strong {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin: 0.25rem 0 0.5rem;
+}
+
+.sudoku-escape .case-list p {
+  color: #444;
+}
+
+/* 截图：竖屏 8 张，桌面 4 列、手机 2 列 */
+.sudoku-escape .screenshot-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sudoku-escape .screenshot-grid img {
+  border-radius: 12px;
+}
+
+@media (max-width: 48rem) {
+  .sudoku-escape .hero h1 {
+    font-size: 4rem;
+  }
+
+  .sudoku-escape .hero .slogan {
+    font-size: 2rem;
+  }
+
+  .sudoku-escape .hero-art {
+    flex: none;
+    width: 70%;
+    margin-top: 1rem;
+  }
+
+  .sudoku-escape .screenshot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

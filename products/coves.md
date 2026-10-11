@@ -170,7 +170,7 @@ Coves 采用“计划 - 执行 - 复盘”闭环：用四象限规划任务优�
 ## 联系方式与官方渠道
 
 - 官网：https://www.softwindlab.com
-- 产品页：https://www.softwindlab.com/products/coves
+- 产品页：https://www.softwindlab.com/products/coves/
 - App Store：https://apps.apple.com/app/coves-focus-timer/id1400641344
 - 邮件：<softwindlab@gmail.com>
 - 小红书：https://www.xiaohongshu.com/user/profile/66275f240000000003026bd5

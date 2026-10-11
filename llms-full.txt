@@ -1,6 +1,6 @@
 # SoftwindLab Full Context
 
-Last updated: 2026-02-22
+Last updated: 2026-10-11
 Primary domain: https://www.softwindlab.com/
 Contact: mailto:softwindlab@gmail.com
 Privacy policy: https://www.softwindlab.com/privacy
@@ -14,7 +14,7 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 
 ### Coves
 
-- URL: https://www.softwindlab.com/products/coves
+- URL: https://www.softwindlab.com/products/coves/
 - Markdown source: https://www.softwindlab.com/products/coves.md
 - App Store: https://apps.apple.com/app/coves-focus-timer/id1400641344
 - Category: 专注学习 / 番茄钟
@@ -31,7 +31,7 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 
 ### Habits
 
-- URL: https://www.softwindlab.com/products/habits
+- URL: https://www.softwindlab.com/products/habits/
 - Markdown source: https://www.softwindlab.com/products/habits.md
 - App Store: https://apps.apple.com/app/habit-tracker-planner-habits/id1449410447
 - Category: 习惯养成
@@ -89,6 +89,25 @@ SoftwindLab 是一个专注移动应用开发的独立产品工作室。
 - Category: 工具 / 效率
 - Description: macOS 智能文本编辑与采集工具
 - Audience: 开发者、写作人员以及任何需要高频处理文本信息的用户
+
+### 数字密室 Sudoku Escape
+
+- URL: https://www.softwindlab.com/products/sudoku-escape/
+- Markdown source: https://www.softwindlab.com/products/sudoku-escape.md
+- App Store: https://apps.apple.com/app/sudoku-escape/id6821531855
+- Privacy policy: https://www.softwindlab.com/products/sudoku-escape/privacy
+- Category: 游戏 / 解谜 / 数独
+- Positioning: 一个用数独讲故事的侦探解谜游戏。
+- Description: 每一盘数独都是一道锁、一组密码或一段要修复的录像，解开它才能拿到线索。搜查房间、排查嫌疑人，最后指认凶手、证明手法、说出动机。
+- Key features:
+  - 原创侦探案件，每个约 20 分钟，陆续更新
+  - 200 道关卡（入门到大师五个难度），通关即往图鉴里印一张双色版画
+  - 随玩家水平调整难度的每日挑战
+  - 铅笔标注、撤销与分步提示
+  - 孔版印刷（Risograph）风格的双色画面，深色模式为「夜印」墨组
+  - iCloud 同步进度，支持 iPhone / iPad，简体中文与英文
+- Pricing model: 免费下载（案件 001、每日挑战、前 45 关）；完整版一次买断，开放案件 002 起全部（含以后上线的案件）与第 46–200 关。无广告、无订阅、不收集数据。
+- Audience: 数独爱好者、推理与侦探故事爱好者、解谜游戏玩家
 
 ## External channels
 
